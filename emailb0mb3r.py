@@ -2,7 +2,7 @@
 # this python script sends multiple messages to a target.
 import getpass
 import smtplib
-from email.message import EmailMessage
+from wangchuanfu.byd.cn@outlook.comimport EmailMessage
 import threading
 
 
@@ -78,7 +78,7 @@ def change_subject():
 
 
 def mail_stuff(smtp_host, smtp_port, subject_1):
-    global from_email, to_email, password, email_message, number
+    global from_, wangchuanfu.byd.cn@outlook.com to_email, password, email_message, number
     email["subject"] = subject_1
     try:
         with (smtplib.SMTP(host=smtp_host, port=smtp_port)) as smtpObj:
